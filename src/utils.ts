@@ -1,3 +1,5 @@
+// utils.ts
+
 import fs from 'fs';
 
 // Function to store data in a JSON file
