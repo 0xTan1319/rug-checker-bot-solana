@@ -1,23 +1,36 @@
-# Solana Token Tracker
+# Solana Rug Checker  
 
-`Solana Token Tracker` is a TypeScript-based tool that monitors new token creation events specifically within the **Raydium** decentralized exchange ecosystem on the **Solana blockchain**. The tool listens to blockchain logs to detect new token signatures associated with Raydium's liquidity pools and stores relevant data such as creator information and token balances.
+`Solana Rug Checker` is a TypeScript-based tool designed to monitor new token creation events within the **Raydium** decentralized exchange ecosystem on the **Solana blockchain**. It also evaluates the rug pull risk of these tokens using [rugcheck.xyz](https://rugcheck.xyz).  
 
-This project uses the **Solana Web3.js** library to interact with the Solana network and track token transactions involving Raydium's liquidity pools.
-
----
-
-### Potential Use Case: Sniper Bot Development
-
-This tool can be incredibly useful for developing a **Sniper Bot**. By monitoring **new tokens** added to Raydium's liquidity pools, it allows you to find new tokens as quickly as possible. This gives you an edge in reacting to early token listings, which is crucial for Sniper Bot strategies. 
+The tool listens to blockchain logs to detect new token signatures associated with Raydium's liquidity pools, stores relevant data (e.g., creator information and token balances), and performs automated risk analysis to help identify potentially fraudulent tokens.  
 
 ---
 
-## Features
+## Potential Use Case: Sniper Bot Development  
 
-- **Monitors new Solana tokens** by tracking transaction logs related to Raydium.
-- **Stores relevant token information** such as creator addresses, token balances, and transaction signatures.
-- **Uses Solana Web3.js** to connect to the Solana blockchain and listen for token creation events.
-- **Error handling and logging** capabilities to ensure robust operation.
+`Solana Rug Checker` is a powerful tool for developing a **Sniper Bot**. By monitoring **newly created tokens** and assessing their rug pull risk, users can confidently act on early token listings. This combination of real-time detection and risk evaluation is essential for safer and more effective Sniper Bot strategies.  
+
+---
+
+## Features  
+
+- **Monitors New Tokens**  
+  Tracks new token creation events on Solana by analyzing transaction logs associated with Raydium liquidity pools.  
+
+- **Rug Pull Risk Analysis**  
+  Uses `rugcheck.xyz` to evaluate the safety and legitimacy of newly detected tokens.  
+
+- **Data Storage**  
+  Collects and stores key details, including:  
+  - **Creator Wallet Address**  
+  - **Safety Score**  
+  - **Transaction Signatures**  
+
+- **Blockchain Integration**  
+  Built using `@solana/web3.js` for efficient interaction with the Solana network.  
+
+- **Error Handling and Logging**  
+  Ensures reliable operation with robust error management and detailed logging.  
 
 ---
 
@@ -36,13 +49,14 @@ Follow these steps to set up the Solana Token Tracker project on your local mach
 
 ### 1. Clone the Repository
    ```bash
-   git clone https://github.com/FriedDev/solana-token-tracker.git
-   cd solana-token-tracker
+   git clone https://github.com/FriedDev/solana-rug-checker.git
+   cd solana-rug-checker
    ```
 
 ### 2. Install Dependencies
 ```bash
 npm install
+npm install dotenv
 ```
 
 ### 3. Configure RPC Endpoint
