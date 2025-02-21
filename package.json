@@ -1,6 +1,7 @@
 {
   "name": "solana-token-monitor",
   "version": "1.0.0",
+  "author": "0xTan1319",
   "description": "Monitor new Solana tokens",
   "scripts": {
     "monitor": "npx tsx src/index.ts"
