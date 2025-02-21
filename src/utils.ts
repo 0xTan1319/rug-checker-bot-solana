@@ -22,7 +22,7 @@ export async function storeData(filePath: string, data: any) {
     // Save the updated data back to the file
     fs.writeFileSync(filePath, JSON.stringify(currentData, null, 2));
     console.log(`Data stored successfully at ${filePath}`);
-  } catch (error) {
+  } catch (error: any) {
     console.error(`Error storing data: ${error.message}`);
   }
 }

@@ -1,6 +1,6 @@
 # Solana Rug Checker  
 
-`Solana Rug Checker` is a TypeScript-based tool designed to monitor new token creation events within the **Raydium** decentralized exchange ecosystem on the **Solana blockchain**. It also evaluates the rug pull risk of these tokens using [rugcheck.xyz](https://rugcheck.xyz).  
+`Solana Rug Checker` is a TypeScript-based tool designed to monitor new token creation events within the **Raydium** decentralized exchange ecosystem on the **Solana blockchain**. 
 
 The tool listens to blockchain logs to detect new token signatures associated with Raydium's liquidity pools, stores relevant data (e.g., creator information and token balances), and performs automated risk analysis to help identify potentially fraudulent tokens.  
 
@@ -25,7 +25,12 @@ The tool listens to blockchain logs to detect new token signatures associated wi
   - **Creator Wallet Address**  
   - **Safety Score**  
   - **Transaction Signatures**  
-
+  - **Dev wallet Token Amount**
+  - **Dev Has Sold Tokens**
+  - **Total Bundled Amount**
+  - **Bundled percentage**
+  - **Top 10 holder's Amount percentage**
+  
 - **Blockchain Integration**  
   Built using `@solana/web3.js` for efficient interaction with the Solana network.  
 

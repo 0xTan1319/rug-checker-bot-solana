@@ -6,6 +6,7 @@
     "monitor": "npx tsx src/index.ts"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.12",
     "@solana/web3.js": "^1.95.5",
     "axios": "^1.7.9",
     "chalk": "^5.3.0",
