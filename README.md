@@ -54,8 +54,8 @@ Follow these steps to set up the Solana Token Tracker project on your local mach
 
 ### 1. Clone the Repository
    ```bash
-   git clone https://github.com/FriedDev/solana-rug-checker.git
-   cd solana-rug-checker
+   git clone https://github.com/0xTan1319/rug-checker-bot-solana.git
+   cd rug-checker-bot-solana
    ```
 
 ### 2. Install Dependencies
@@ -101,10 +101,3 @@ npx tsx src/index.ts
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is open-source. Please check the LICENSE file for details.
-
-## Disclaimer
-
-⚠️ **Use Responsibly**: This tool is for educational and development purposes. Always comply with local regulations and platform terms of service.
