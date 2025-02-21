@@ -6,6 +6,13 @@ The tool listens to blockchain logs to detect new token signatures associated wi
 
 ---
 
+## Contact
+
+If you wanna build tg or discord bot with this bot, feel free contact here:
+
+[Telegram](https://t.me/shiny0103)
+[Twitter](https://x.com/0xTan1319)
+
 ## Potential Use Case: Sniper Bot Development  
 
 `Solana Rug Checker` is a powerful tool for developing a **Sniper Bot**. By monitoring **newly created tokens** and assessing their rug pull risk, users can confidently act on early token listings. This combination of real-time detection and risk evaluation is essential for safer and more effective Sniper Bot strategies.  
